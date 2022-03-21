@@ -1,0 +1,53 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bananknapp {
+  width: 20%;
+}
+
+.banan:hover img {
+  transform: rotate(10deg) scale(1.25);
+}
+
+.banan:active img {
+  transform: scale(1.15);
+}
+
+.banan img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+body {
+  background-image: url("./pictures/wood.png");
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-content: flex-start;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.title {
+  font-size: 60px;
+  color: black;
+  margin-top: 30px;
+}
+
+article {
+  display: grid;
+  max-height: 100vh;
+  text-align: center;
+}
+
+.bananpoints {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-top: 20px;
+}
